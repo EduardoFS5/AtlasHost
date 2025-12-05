@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AtlasHost Data Centers</title>
+  <link rel="stylesheet" href="Index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">AtlasHost</a>
+      <nav class="main-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#data-centers">Data Centers</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#planos">Planos</a> <!--  nova opção adicionada -->
+        <a href="#contato">Contato</a>
+        <a href="../login.html" target="_blank" class="login-link">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Data Centers AtlasHost</h1>
+        <p>Presença nacional e internacional com certificação Tier III, alta disponibilidade, segurança e conectividade robusta.</p>
+        <a href="#data-centers" class="btn-primary">Ver localizações</a>
+      </div>
+      <div class="hero-visual">
+        <img src="https://via.placeholder.com/600x400" alt="Infraestrutura de Data Center">
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section gray">
+    <div class="container">
+      <h2 class="section-title">Sobre a AtlasHost</h2>
+      <p class="section-desc">
+        A AtlasHost é uma empresa brasileira especializada em soluções de infraestrutura de TI, hospedagem em nuvem e data centers de alta performance.
+        Nossos ambientes são projetados com redundância total, conectividade premium e segurança em nível corporativo.
+      </p>
+    </div>
+  </section>
+
+  <section id="data-centers" class="section">
+    <div class="container">
+      <h2 class="section-title">Nossos Data Centers</h2>
+      <div class="location-list">
+        <div class="location-card">
+          <h3>São Paulo (Cotia – SP1 / Osasco – SP2)</h3>
+          <p>Infraestrutura Tier III com redundância elétrica e climática, conectividade com os principais IXs do Brasil e operação 24/7.</p>
+        </div>
+        <div class="location-card">
+          <h3>Curitiba – PR1</h3>
+          <p>Ambiente de alta densidade para operações regionais e backup de missão crítica.</p>
+        </div>
+        <div class="location-card">
+          <h3>Fortaleza – CE1</h3>
+          <p>Conectividade estratégica para rotas internacionais e baixa latência no Nordeste.</p>
+        </div>
+        <div class="location-card">
+          <h3>Miami – FL1 (EUA)</h3>
+          <p>Ponto internacional de interconexão com redes globais, ideal para empresas multinacionais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="solucoes" class="section gray">
+    <div class="container">
+      <h2 class="section-title">Soluções AtlasHost</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Cloud Privada</h3>
+          <p>Ambiente virtualizado sob medida para sua empresa, com controle total e escalabilidade.</p>
+        </div>
+        <div class="card">
+          <h3>Colocation</h3>
+          <p>Hospede seus próprios servidores com segurança e conectividade garantidas pela AtlasHost.</p>
+        </div>
+        <div class="card">
+          <h3>Disaster Recovery</h3>
+          <p>Planos de continuidade de negócios com replicação e recuperação rápida de dados.</p>
+        </div>
+        <div class="card">
+          <h3>Cloud Pública</h3>
+          <p>Infraestrutura em nuvem compartilhada para empresas que buscam flexibilidade e custo reduzido.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- sessão de planos -->
+  <section id="planos" class="section">
+    <div class="container">
+      <h2 class="section-title">Nossos Planos</h2>
+      <p class="section-desc">Escolha o plano ideal para as necessidades da sua empresa. Em breve, você poderá ver as descrições e valores detalhados aqui.</p>
+
+      <div class="plans-grid">
+        <div class="plan-card">
+          <h3>Atlas Start</h3>
+          <p class="plan-desc">Hospedagem básica, ideal para sites pequenos e páginas pessoais.</p>
+          <p class="plan-price">R$ 250,00/mês</p>
+        </div>
+        <div class="plan-card">
+          <h3>Atlas Pro</h3>
+          <p class="plan-desc">Mais desempenho, suporte 24h e certificado SSL incluso.</p>
+          <p class="plan-price">R$ 550,00/mês</p>
+        </div>
+        <div class="plan-card">
+          <h3>Atlas Cloud</h3>
+          <p class="plan-desc">Hospedagem em nuvem com recursos escaláveis e backup automático.</p>
+          <p class="plan-price">R$ 750,00/mês</p>
+        </div>
+        <div class="plan-card">
+          <h3>Atlas Business</h3>
+          <p class="plan-desc">Alta disponibilidade e segurança para empresas de médio porte.</p>
+          <p class="plan-price">R$ 1100,00/mês</p>
+        </div>
+        <div class="plan-card">
+          <h3>Atlas Titan</h3>
+          <p class="plan-desc">Servidores dedicados com desempenho máximo e IP exclusivo.</p>
+          <p class="plan-price">R$ 1850,00/mês</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fim dos planos -->
+
+  <section id="contato" class="contact section">
+    <div class="container">
+      <h2 class="section-title">Fale com um Especialista</h2>
+      <form id="contactForm">
+        <label>Nome<input type="text" name="nome" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Empresa<input type="text" name="empresa"></label>
+        <label>Mensagem<textarea name="mensagem" rows="4"></textarea></label>
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> AtlasHost S.A. • Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
+

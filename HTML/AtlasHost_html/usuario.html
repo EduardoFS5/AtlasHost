@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AtlasHost - Painel Admin</title>
+  <link rel="stylesheet" href="usuario.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">AtlasHost</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Data</a></li>
+        <li><a href="#">Centers</a></li>
+        <li><a href="#">Soluções</a></li>
+        <li><a href="#">Planos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="user-info">
+      <h2 id="nome">nome do usuario:</h2>
+      <h2 id="email">email do usuario:</h2>
+      <h2>status: <span class="admin">admin</span></h2>
+    </section>
+
+    <section class="planos">
+      <div class="titulo">planos</div>
+      <table id="tabela-planos">
+        <thead>
+          <tr>
+            <th>id do plano</th>
+            <th>tipo do plano</th>
+            <th>data fim</th>
+            <th>operando</th>
+            <th>valor</th>
+            <th>manipulação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Os dados virão do banco via JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

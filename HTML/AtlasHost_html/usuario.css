@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #0052cc;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  padding: 20px 40px;
+}
+
+.user-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.admin {
+  color: black;
+  font-weight: bold;
+}
+
+.planos {
+  margin-top: 30px;
+}
+
+.planos .titulo {
+  background-color: #1e1fb3;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.2rem;
+  width: fit-content;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #e1e6f9;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+input, select {
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.actions .edit:hover {
+  color: #007bff;
+}
+
+.actions .delete:hover {
+  color: red;
+}
+
+input[disabled], select[disabled] {
+  background-color: #f2f2f2;
+  color: #777;
+}
